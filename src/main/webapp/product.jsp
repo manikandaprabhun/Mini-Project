@@ -23,7 +23,7 @@
 					List<Projects> projects = (List<Projects>) request
 							.getAttribute("projects");
 					for (Projects project : projects) {
-				%>
+				%> 
 				<tr>
 					<td><label><%=project.getName()%></label></td>
 					<td><select name="catgry">
