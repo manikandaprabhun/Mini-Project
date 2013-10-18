@@ -32,7 +32,7 @@
 									List<Cats> cats = (List<Cats>) request.getAttribute("cats");
 									for (Cats cat : cats) {
 							%>
-							<option <%=(c.equals(cat)) ? " selected=\"selected\"" : ""%>><%=cat.getName()%></option>
+							<option <%=(c.equals(cat)) ? " selected=\"selected\"" : ""%>  value="<%=cat.getId()%>"><%=cat.getName()%></option>
 							<%
 								}
 							%>
