@@ -11,40 +11,62 @@ import javax.servlet.http.HttpServletResponse;
 import com.ebix.domain.Cats;
 import com.ebix.domain.Projects;
 import com.ebix.test.AppDao;
+import com.ebix.util.ServConstans;
 
 /**
  * Servlet implementation class ServController
  */
 public class ServController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ServController() {
-        super();
-    }
 
 	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#HttpServlet()
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public ServController() {
+		super();
+	}
+	
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		String act = request.getParameter("act");
+		if(ServConstans.DELETE.equals(act)){
+			String id = request.getParameter("id");
+			Projects projects = new Projects();
+			projects.setId(Integer.parseInt(id));
+			AppDao.delete(projects);
+			loadAndRedirect(request, response);
+		}
 	}
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
 		String act = request.getParameter("act");
-		if(act.equals("product")){
-			@SuppressWarnings("unchecked")
-			List<Projects> projects = (List<Projects>) AppDao.all(Projects.class.getSimpleName());
-			@SuppressWarnings("unchecked")
-			List<Cats> cats = (List<Cats>) AppDao.all(Cats.class.getSimpleName());
-			request.setAttribute("projects", projects);
-			request.setAttribute("cats", cats);
-			request.getRequestDispatcher("project.do").forward(request, response);
+		if (ServConstans.HOME.equals(act)) {
+			loadAndRedirect(request, response);
+		} else if (ServConstans.NEWPRODUCT.equals(act)) {
+			String name = request.getParameter("name");
+			String category = request.getParameter("catgry");
+			Projects projects = new Projects(name, new Cats(
+					Integer.parseInt(category), null, null));
+			AppDao.attachDirty(projects);
+			loadAndRedirect(request, response);
 		}
+	}
+	
+	@SuppressWarnings("unchecked")
+	private void loadAndRedirect(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		List<Projects> projects = (List<Projects>) AppDao.all(Projects.class
+				.getSimpleName());
+		List<Cats> cats = (List<Cats>) AppDao.all(Cats.class.getSimpleName());
+		request.setAttribute("projects", projects);
+		request.setAttribute("cats", cats);
+		request.getRequestDispatcher("project.do").forward(request, response);
 	}
 
 }
