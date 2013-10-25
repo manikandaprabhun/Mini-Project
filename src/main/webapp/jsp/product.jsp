@@ -47,6 +47,6 @@
 			%>
 		</table>
 	</fieldset>
-	<%@ include file="/newproduct.jsp"%>
+	<%@ include file="/jsp/newproduct.jsp"%>
 </body>
 </html>
