@@ -51,11 +51,11 @@
           minEvictableIdleTimeMillis="30000"
           jmxEnabled="true"
           jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;
-          org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"
-          username="brightfuture"
-          password="autumn13a73s"
+            org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"
+          username="root"
+          password="hi"
           driverClassName="com.mysql.jdbc.Driver"
-          url="jdbc:mysql://192.168.34.174:3306/test"/>
+          url="jdbc:mysql://127.0.0.1:3306/test"/>
 
 	
 

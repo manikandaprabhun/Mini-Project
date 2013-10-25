@@ -279,3 +279,729 @@
 2013-10-18 12:36:01,798 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
 2013-10-18 12:36:01,798 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
 2013-10-18 12:36:01,798 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-18 21:46:03,974 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-18 21:46:03,991 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-18 21:46:03,995 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-18 21:46:03,997 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-18 21:46:04,046 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-18 21:46:04,047 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-18 21:46:04,090 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-18 21:46:04,111 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-18 21:50:12,409 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-18 21:50:12,423 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-18 21:50:12,426 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-18 21:50:12,428 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-18 21:50:12,457 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-18 21:50:12,457 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-18 21:50:12,490 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-18 21:50:12,512 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-18 21:50:12,978 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-18 21:50:12,990 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-18 21:50:13,014 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-18 21:50:13,022 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-18 21:50:13,092 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-18 21:50:13,093 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-18 21:50:13,098 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-18 21:50:13,099 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-18 21:50:13,134 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-18 21:50:13,137 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-18 21:50:13,139 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-18 21:50:13,142 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-18 21:50:13,359 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-18 21:50:13,372 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-18 21:50:13,373 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-18 21:50:13,374 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-18 21:50:13,702 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-18 21:50:13,702 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-18 21:50:13,703 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-18 21:50:14,041 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-18 21:50:14,043 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-18 21:50:14,045 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-18 21:50:14,046 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-18 21:50:14,072 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-18 21:50:14,074 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-18 21:50:14,075 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-18 21:50:14,077 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-18 21:50:14,078 - java.sql.DatabaseMetaData - INFO - HHH000262: Table not found: user
+2013-10-18 21:50:14,079 - java.sql.DatabaseMetaData - INFO - HHH000262: Table not found: user
+2013-10-18 21:50:14,331 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-19 18:11:09,960 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-19 18:11:10,015 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-19 18:11:10,073 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-19 18:11:10,094 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-19 18:11:10,223 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-19 18:11:10,224 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-19 18:11:10,307 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-19 18:11:10,347 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-19 18:11:14,821 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-19 18:11:14,853 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-19 18:11:15,024 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-19 18:11:15,065 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-19 18:11:15,360 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-19 18:11:15,362 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-19 18:11:15,365 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-19 18:11:15,405 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-19 18:11:15,552 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-19 18:11:15,562 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-19 18:11:15,566 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-19 18:11:15,572 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-19 18:11:15,799 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-19 18:11:15,805 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-19 18:11:15,823 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-19 18:11:15,831 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-19 18:11:17,383 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-19 18:11:17,400 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-19 18:11:17,401 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-19 18:11:18,481 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-19 18:11:18,495 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-19 18:11:18,530 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-19 18:11:18,542 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-19 18:11:18,691 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-19 18:11:18,709 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-19 18:11:18,717 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-19 18:11:18,718 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-19 18:11:18,775 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-19 18:11:18,788 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-19 18:11:18,788 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-19 18:11:18,794 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-19 18:11:18,812 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-19 18:11:59,597 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-19 18:11:59,613 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-19 18:11:59,615 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-19 18:11:59,618 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-19 18:11:59,646 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-19 18:11:59,646 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-19 18:11:59,681 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-19 18:11:59,700 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-19 18:12:00,065 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-19 18:12:00,077 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-19 18:12:00,101 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-19 18:12:00,109 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-19 18:12:00,179 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-19 18:12:00,179 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-19 18:12:00,184 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-19 18:12:00,185 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-19 18:12:00,211 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-19 18:12:00,211 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-19 18:12:00,214 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-19 18:12:00,216 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-19 18:12:00,406 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-19 18:12:00,407 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-19 18:12:00,408 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-19 18:12:00,421 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-19 18:12:00,658 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-19 18:12:00,658 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-19 18:12:00,659 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-19 18:12:00,681 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-19 18:12:00,681 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-19 18:12:00,682 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-19 18:12:00,682 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-19 18:12:00,690 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-19 18:12:00,690 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-19 18:12:00,691 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-19 18:12:00,691 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-19 18:12:00,697 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-19 18:12:00,698 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-19 18:12:00,698 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-19 18:12:00,699 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-19 18:12:00,701 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-19 22:24:35,726 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-19 22:24:35,780 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-19 22:24:35,790 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-19 22:24:35,799 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-19 22:24:36,407 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-19 22:24:36,409 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-19 22:24:36,529 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-19 22:24:36,577 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-19 22:24:37,575 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-19 22:24:37,628 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-19 22:24:37,704 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-19 22:24:37,723 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-19 22:24:37,830 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-19 22:24:37,830 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-19 22:24:37,834 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-19 22:24:37,835 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-19 22:24:37,867 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-19 22:24:37,868 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-19 22:24:37,870 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-19 22:24:37,873 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-19 22:24:38,119 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-19 22:24:38,121 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-19 22:24:38,122 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-19 22:24:38,123 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-19 22:24:38,696 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-19 22:24:38,698 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-19 22:24:38,699 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-19 22:24:38,802 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-19 22:24:38,805 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-19 22:24:38,807 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-19 22:24:38,809 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-19 22:24:38,852 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-19 22:24:38,853 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-19 22:24:38,855 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-19 22:24:38,856 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-19 22:24:38,879 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-19 22:24:38,882 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-19 22:24:38,883 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-19 22:24:38,885 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-19 22:24:38,890 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 10:14:21,246 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-20 10:14:21,315 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-20 10:14:21,325 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-20 10:14:21,334 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-20 10:14:21,398 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 10:14:21,399 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 10:14:21,472 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 10:14:21,505 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 10:14:22,065 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 10:14:22,114 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 10:14:22,168 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 10:14:22,193 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 10:14:22,338 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 10:14:22,340 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 10:14:22,350 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 10:14:22,351 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 10:14:22,427 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 10:14:22,428 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 10:14:22,434 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 10:14:22,445 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 10:14:22,727 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 10:14:22,728 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 10:14:22,729 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 10:14:22,730 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 10:14:23,202 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 10:14:23,203 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 10:14:23,204 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 10:14:23,275 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-20 10:14:23,276 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-20 10:14:23,277 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 10:14:23,279 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 10:14:23,321 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-20 10:14:23,323 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-20 10:14:23,324 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-20 10:14:23,325 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-20 10:14:23,342 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-20 10:14:23,344 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-20 10:14:23,346 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 10:14:23,349 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 10:14:23,351 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 10:17:47,117 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-20 10:17:47,153 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-20 10:17:47,164 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-20 10:17:47,172 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-20 10:17:47,289 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 10:17:47,290 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 10:17:47,386 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 10:17:47,426 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 10:17:47,803 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 10:17:47,833 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 10:17:47,871 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 10:17:47,893 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 10:17:48,063 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 10:17:48,065 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 10:17:48,072 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 10:17:48,074 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 10:17:48,135 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 10:17:48,136 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 10:17:48,142 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 10:17:48,151 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 10:17:48,443 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 10:17:48,445 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 10:17:48,448 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 10:17:48,450 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 10:17:48,805 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 10:17:48,806 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 10:17:48,811 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 10:17:48,840 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-20 10:17:48,841 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-20 10:17:48,842 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 10:17:48,842 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 10:17:48,850 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-20 10:17:48,851 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-20 10:17:48,852 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-20 10:17:48,852 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-20 10:17:48,859 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-20 10:17:48,861 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-20 10:17:48,862 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 10:17:48,863 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 10:17:48,867 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 10:45:31,464 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-20 10:45:31,483 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-20 10:45:31,489 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-20 10:45:31,493 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-20 10:45:31,557 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 10:45:31,559 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 10:45:31,629 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 10:45:31,661 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 10:45:32,049 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 10:45:32,075 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 10:45:32,106 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 10:45:32,131 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 10:45:32,262 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 10:45:32,263 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 10:45:32,274 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 10:45:32,276 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 10:45:32,335 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 10:45:32,336 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 10:45:32,339 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 10:45:32,343 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 10:45:32,639 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 10:45:32,640 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 10:45:32,641 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 10:45:32,642 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 10:45:33,030 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 10:45:33,031 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 10:45:33,033 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 10:45:33,073 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-20 10:45:33,074 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-20 10:45:33,074 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 10:45:33,075 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 10:45:33,084 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-20 10:45:33,085 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-20 10:45:33,087 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-20 10:45:33,089 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-20 10:45:33,100 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-20 10:45:33,102 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-20 10:45:33,103 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 10:45:33,104 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 10:45:33,105 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 12:25:17,128 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-20 12:25:17,144 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-20 12:25:17,152 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-20 12:25:17,160 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-20 12:25:17,259 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 12:25:17,260 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 12:25:17,324 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 12:25:17,356 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 12:25:17,825 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 12:25:17,842 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 12:25:17,871 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 12:25:17,890 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 12:25:18,070 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 12:25:18,071 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 12:25:18,078 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 12:25:18,079 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 12:25:18,171 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 12:25:18,173 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 12:25:18,180 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 12:25:18,188 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 12:25:18,472 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 12:25:18,473 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 12:25:18,474 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 12:25:18,474 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 12:25:18,826 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 12:25:18,828 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 12:25:18,832 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 12:25:18,856 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-20 12:25:18,856 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-20 12:25:18,857 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 12:25:18,857 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 12:25:18,867 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-20 12:25:18,868 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-20 12:25:18,870 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-20 12:25:18,871 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-20 12:25:18,883 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-20 12:25:18,885 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-20 12:25:18,885 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 12:25:18,886 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 12:25:18,889 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 12:27:15,368 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-20 12:27:15,380 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-20 12:27:15,384 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-20 12:27:15,389 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-20 12:27:15,455 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 12:27:15,457 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 12:27:15,511 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 12:27:15,560 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 12:27:15,943 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 12:27:15,981 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 12:27:16,015 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 12:27:16,030 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 12:27:16,194 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 12:27:16,196 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 12:27:16,207 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 12:27:16,209 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 12:27:16,305 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 12:27:16,307 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 12:27:16,313 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 12:27:16,318 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 12:27:16,619 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 12:27:16,620 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 12:27:16,621 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 12:27:16,622 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 12:27:17,027 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 12:27:17,029 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 12:27:17,033 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 12:27:17,081 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-20 12:27:17,083 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-20 12:27:17,084 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 12:27:17,086 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 12:27:17,105 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-20 12:27:17,107 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-20 12:27:17,108 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-20 12:27:17,110 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-20 12:27:17,125 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-20 12:27:17,126 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-20 12:27:17,126 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 12:27:17,127 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 12:27:17,130 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 12:28:06,363 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-20 12:28:06,383 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-20 12:28:06,387 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-20 12:28:06,389 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-20 12:28:06,478 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 12:28:06,479 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 12:28:06,525 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 12:28:06,564 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 12:28:06,943 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 12:28:06,964 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 12:28:07,019 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 12:28:07,044 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 12:28:07,226 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 12:28:07,228 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 12:28:07,234 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 12:28:07,235 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-20 12:28:07,309 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-20 12:28:07,310 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-20 12:28:07,316 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-20 12:28:07,319 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-20 12:28:07,638 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-20 12:28:07,639 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-20 12:28:07,640 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-20 12:28:07,641 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-20 12:28:07,985 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-20 12:28:07,987 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-20 12:28:07,992 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-20 12:28:08,040 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-20 12:28:08,042 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-20 12:28:08,043 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 12:28:08,045 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 12:28:08,063 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-20 12:28:08,065 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-20 12:28:08,066 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-20 12:28:08,068 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-20 12:28:08,079 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-20 12:28:08,081 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-20 12:28:08,083 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-20 12:28:08,084 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-20 12:28:08,089 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-21 09:20:35,307 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-21 09:20:35,362 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-21 09:20:35,372 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-21 09:20:35,380 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-21 09:20:35,463 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-21 09:20:35,464 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-21 09:20:35,548 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-21 09:20:35,580 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-21 09:20:36,050 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-21 09:20:36,083 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-21 09:20:36,118 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-21 09:20:36,137 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-21 09:20:36,344 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-21 09:20:36,363 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-21 09:20:36,374 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-21 09:20:36,375 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-21 09:20:36,435 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-21 09:20:36,436 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-21 09:20:36,442 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-21 09:20:36,451 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-21 09:20:36,734 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-21 09:20:36,735 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-21 09:20:36,736 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-21 09:20:36,737 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-21 09:20:37,111 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-21 09:20:37,111 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-21 09:20:37,113 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-21 09:20:37,268 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-21 09:20:37,270 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-21 09:20:37,271 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-21 09:20:37,273 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-21 09:20:37,312 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-21 09:20:37,313 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-21 09:20:37,313 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-21 09:20:37,314 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-21 09:20:37,324 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-21 09:20:37,325 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-21 09:20:37,326 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-21 09:20:37,327 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-21 09:20:37,329 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-22 09:06:23,496 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-22 09:06:23,515 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-22 09:06:23,526 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-22 09:06:23,535 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-22 09:06:23,632 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-22 09:06:23,633 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-22 09:06:23,721 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-22 09:06:23,795 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-22 09:06:24,253 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-22 09:06:24,273 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-22 09:06:24,301 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-22 09:06:24,309 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-22 09:06:24,470 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-22 09:06:24,471 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-22 09:06:24,479 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-22 09:06:24,481 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-22 09:06:24,556 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-22 09:06:24,557 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-22 09:06:24,564 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-22 09:06:24,573 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-22 09:06:25,048 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-22 09:06:25,049 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-22 09:06:25,050 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-22 09:06:25,051 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-22 09:06:25,457 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-22 09:06:25,458 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-22 09:06:25,460 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-22 09:06:25,778 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-22 09:06:25,780 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-22 09:06:25,781 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-22 09:06:25,783 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-22 09:06:25,807 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-22 09:06:25,809 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-22 09:06:25,811 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-22 09:06:25,812 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-22 09:06:25,843 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-22 09:06:25,845 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-22 09:06:25,847 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-22 09:06:25,848 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-22 09:06:25,853 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-22 20:45:35,011 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-22 20:45:35,060 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-22 20:45:35,067 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-22 20:45:35,076 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-22 20:45:35,506 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-22 20:45:35,507 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-22 20:45:35,639 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-22 20:45:35,694 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-22 20:45:36,096 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-22 20:45:36,118 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-22 20:45:36,155 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-22 20:45:36,196 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-22 20:45:36,377 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-22 20:45:36,379 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-22 20:45:36,390 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-22 20:45:36,391 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-22 20:45:36,487 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-22 20:45:36,489 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-22 20:45:36,495 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-22 20:45:36,501 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-22 20:45:36,810 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-22 20:45:36,811 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-22 20:45:36,812 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-22 20:45:36,813 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-22 20:45:37,217 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-22 20:45:37,218 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-22 20:45:37,222 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-22 20:45:37,359 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-22 20:45:37,360 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-22 20:45:37,362 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-22 20:45:37,364 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-22 20:45:37,413 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-22 20:45:37,415 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-22 20:45:37,417 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-22 20:45:37,418 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-22 20:45:37,438 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-22 20:45:37,440 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-22 20:45:37,442 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-22 20:45:37,444 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-22 20:45:37,449 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-22 21:21:02,867 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-22 21:21:02,900 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-22 21:21:02,911 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-22 21:21:02,918 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-22 21:21:03,049 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-22 21:21:03,052 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-22 21:21:03,168 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-22 21:21:03,220 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-22 21:21:03,711 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-22 21:21:03,741 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-22 21:21:03,772 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-22 21:21:03,789 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-22 21:21:03,942 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-22 21:21:03,943 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-22 21:21:03,954 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-22 21:21:03,955 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-22 21:21:04,066 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-22 21:21:04,068 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-22 21:21:04,074 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-22 21:21:04,083 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-22 21:21:04,411 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-22 21:21:04,412 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-22 21:21:04,414 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-22 21:21:04,414 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-22 21:21:04,903 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-22 21:21:04,904 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-22 21:21:04,906 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-22 21:21:04,926 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-22 21:21:04,927 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-22 21:21:04,928 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-22 21:21:04,928 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-22 21:21:04,939 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-22 21:21:04,939 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-22 21:21:04,940 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-22 21:21:04,940 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-22 21:21:04,946 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-22 21:21:04,947 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-22 21:21:04,948 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-22 21:21:04,949 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-22 21:21:04,953 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-22 21:24:13,551 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-22 21:24:13,572 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-22 21:24:13,575 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-22 21:24:13,578 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-22 21:24:13,715 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-22 21:24:13,716 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-22 21:24:13,827 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-22 21:24:13,878 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-22 21:24:14,316 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-22 21:24:14,335 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-22 21:24:14,384 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-22 21:24:14,396 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-22 21:24:14,564 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-22 21:24:14,565 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-22 21:24:14,570 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-22 21:24:14,570 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-22 21:24:14,599 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-22 21:24:14,600 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-22 21:24:14,602 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-22 21:24:14,604 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-22 21:24:14,993 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-22 21:24:14,995 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-22 21:24:14,997 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-22 21:24:14,998 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-22 21:24:15,550 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-22 21:24:15,551 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-22 21:24:15,558 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-22 21:24:15,595 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-22 21:24:15,596 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-22 21:24:15,597 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-22 21:24:15,598 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-22 21:24:15,614 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-22 21:24:15,614 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-22 21:24:15,615 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-22 21:24:15,615 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-22 21:24:15,622 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-22 21:24:15,622 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-22 21:24:15,623 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-22 21:24:15,624 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-22 21:24:15,627 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-23 08:42:58,010 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-23 08:42:58,050 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-23 08:42:58,053 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-23 08:42:58,056 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-23 08:42:58,132 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-23 08:42:58,251 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-23 08:42:58,628 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-23 08:42:58,697 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-23 08:42:59,214 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-23 08:42:59,231 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-23 08:42:59,269 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-23 08:42:59,294 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-23 08:42:59,465 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-23 08:42:59,466 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-23 08:42:59,469 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-23 08:42:59,470 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-23 08:42:59,544 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-23 08:42:59,545 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-23 08:42:59,551 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-23 08:42:59,560 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-23 08:42:59,886 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-23 08:42:59,887 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-23 08:42:59,888 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-23 08:42:59,889 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-23 08:43:00,443 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-23 08:43:00,445 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-23 08:43:00,449 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-23 08:43:00,529 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-23 08:43:00,531 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-23 08:43:00,532 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-23 08:43:00,534 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-23 08:43:00,564 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-23 08:43:00,566 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-23 08:43:00,567 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-23 08:43:00,567 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-23 08:43:00,587 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-23 08:43:00,589 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-23 08:43:00,590 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-23 08:43:00,592 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-23 08:43:00,597 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-23 08:47:45,216 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-23 08:47:45,257 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-23 08:47:45,268 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-23 08:47:45,275 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-23 08:47:45,387 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-23 08:47:45,388 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-23 08:47:45,456 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-23 08:47:45,492 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-23 08:47:45,865 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-23 08:47:45,891 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-23 08:47:45,919 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-23 08:47:45,945 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-23 08:47:46,125 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-23 08:47:46,126 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-23 08:47:46,137 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-23 08:47:46,138 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-23 08:47:46,231 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-23 08:47:46,233 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-23 08:47:46,240 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-23 08:47:46,248 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-23 08:47:46,604 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-23 08:47:46,605 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-23 08:47:46,606 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-23 08:47:46,607 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-23 08:47:47,027 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-23 08:47:47,027 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-23 08:47:47,030 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-23 08:47:47,056 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-23 08:47:47,057 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-23 08:47:47,058 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-23 08:47:47,058 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-23 08:47:47,067 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-23 08:47:47,068 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-23 08:47:47,069 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-23 08:47:47,069 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-23 08:47:47,079 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-23 08:47:47,081 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-23 08:47:47,082 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-23 08:47:47,083 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-23 08:47:47,086 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-23 08:51:05,874 - org.hibernate.annotations.common.Version - INFO - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2013-10-23 08:51:05,891 - org.hibernate.Version - INFO - HHH000412: Hibernate Core {4.1.9.Final}
+2013-10-23 08:51:05,896 - org.hibernate.cfg.Environment - INFO - HHH000206: hibernate.properties not found
+2013-10-23 08:51:05,900 - org.hibernate.cfg.Environment - INFO - HHH000021: Bytecode provider name : javassist
+2013-10-23 08:51:06,013 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-23 08:51:06,015 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-23 08:51:06,096 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-23 08:51:06,148 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-23 08:51:06,511 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-23 08:51:06,553 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-23 08:51:06,593 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-23 08:51:06,622 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-23 08:51:06,789 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-23 08:51:06,790 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-23 08:51:06,794 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-23 08:51:06,795 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete
+2013-10-23 08:51:06,870 - org.hibernate.cfg.Configuration - INFO - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2013-10-23 08:51:06,871 - org.hibernate.cfg.Configuration - INFO - HHH000040: Configuration resource: /hibernate.cfg.xml
+2013-10-23 08:51:06,877 - org.hibernate.internal.util.xml.DTDEntityResolver - WARN - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2013-10-23 08:51:06,886 - org.hibernate.cfg.Configuration - INFO - HHH000041: Configured SessionFactory: null
+2013-10-23 08:51:07,215 - org.hibernate.dialect.Dialect - INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2013-10-23 08:51:07,216 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder - INFO - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2013-10-23 08:51:07,217 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - INFO - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2013-10-23 08:51:07,218 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - INFO - HHH000397: Using ASTQueryTranslatorFactory
+2013-10-23 08:51:07,646 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000228: Running hbm2ddl schema update
+2013-10-23 08:51:07,647 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000102: Fetching database metadata
+2013-10-23 08:51:07,653 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000396: Updating schema
+2013-10-23 08:51:07,672 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.cats
+2013-10-23 08:51:07,673 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name]
+2013-10-23 08:51:07,674 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-23 08:51:07,675 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-23 08:51:07,687 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.projects
+2013-10-23 08:51:07,688 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [cat_id, id, name]
+2013-10-23 08:51:07,688 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: [projects_ibfk_1]
+2013-10-23 08:51:07,689 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [cat_id, primary]
+2013-10-23 08:51:07,701 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000261: Table found: test.user
+2013-10-23 08:51:07,703 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000037: Columns: [id, name, password]
+2013-10-23 08:51:07,704 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000108: Foreign keys: []
+2013-10-23 08:51:07,706 - org.hibernate.tool.hbm2ddl.TableMetadata - INFO - HHH000126: Indexes: [primary]
+2013-10-23 08:51:07,710 - org.hibernate.tool.hbm2ddl.SchemaUpdate - INFO - HHH000232: Schema update complete

@@ -18,6 +18,21 @@ import javax.persistence.Table;
 @Table(name = "cats")
 public class Cats implements Serializable {
 
+	public Cats() {
+
+	}
+
+	public Cats(Integer id, String name, Set<Projects> projects) {
+		this.id = id;
+		this.name = name;
+		this.cats = projects;
+	}
+
+	public Cats(String name, Set<Projects> projects) {
+		this.name = name;
+		this.cats = projects;
+	}
+
 	@GeneratedValue(strategy = IDENTITY)
 	@Id
 	@Column(name = "id", nullable = false)
