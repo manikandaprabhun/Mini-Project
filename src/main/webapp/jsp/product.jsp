@@ -23,20 +23,9 @@
 					<td><a href="cont.do?act=delete&&id=${project.id}"><img
 							src="/serv-jsp-hibernate/images/delete.ico"
 							alt="Delete the Product" height="13px" width="13px"></a></td>
-					<td><a href="cont.do?act=updateform&&id=${project.id}"> <label>${project.name}</label>
+					<td><a href="cont.do?act=updateform&&id=${project.id}"><label>${project.name}</label>
 					</a></td>
-					<td><select name="catgry">
-							<c:forEach var="cat" items="${requestScope.cats}">
-								<c:choose>
-									<c:when test="${cat eq  project.cats}">
-										<option selected="selected" value="${cat.id}">${cat.name}</option>
-									</c:when>
-									<c:otherwise>
-										<option value="${cat.id}">${cat.name}</option>
-									</c:otherwise>
-								</c:choose>
-							</c:forEach>
-					</select></td>
+					<td>${project.cats['name']}</td>
 				</tr>
 			</c:forEach>
 		</table>
