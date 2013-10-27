@@ -1,9 +1,8 @@
-<%@page import="java.util.List"%>
-<%@page import="com.ebix.domain.Cats"%>
-<%@page import="java.util.Set"%>
-<%@page import="com.ebix.domain.Projects"%>
+<%@page
+	import="java.util.List,com.ebix.domain.Cats,java.util.Set,com.ebix.domain.Projects"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -19,32 +18,26 @@
 				<th>Name</th>
 				<th>Category</th>
 			</tr>
-			<%
-				List<Projects> projects = (List<Projects>) request
-						.getAttribute("projects");
-				for (Projects project : projects) {
-			%>
-			<tr>
-				<td><a href="cont.do?act=delete&&id=<%=project.getId()%>"><img src="/serv-jsp-hibernate/images/delete.ico"
-					alt="Delete the Product" height="13px" width="13px""></a></td>
-				<td><label><%=project.getName()%></label></td>
-				<td><select name="catgry">
-						<%
-							Cats c = project.getCats();
-								List<Cats> cats = (List<Cats>) request.getAttribute("cats");
-								for (Cats cat : cats) {
-						%>
-						<option <%=(c.equals(cat)) ? " selected=\"selected\"" : ""%>
-							value="<%=cat.getId()%>"><%=cat.getName()%></option>
-						<%
-							}
-						%>
-				</select></td>
-			</tr>
-
-			<%
-				}
-			%>
+			<c:forEach var="project" items="${requestScope.projects}">
+				<tr>
+					<td><a href="cont.do?act=delete&&id=${project.id}"><img
+							src="/serv-jsp-hibernate/images/delete.ico"
+							alt="Delete the Product" height="13px" width="13px""></a></td>
+					<td><label>${project.name}</label></td>
+					<td><select name="catgry">
+							<c:forEach var="cat" items="${requestScope.cats}">
+								<c:choose>
+									<c:when test="${cat eq  project.cats}">
+										<option selected="selected" value="${cat.id}">${cat.name}</option>
+									</c:when>
+									<c:otherwise>
+										<option value="${cat.id}">${cat.name}</option>
+									</c:otherwise>
+								</c:choose>
+							</c:forEach>
+					</select></td>
+				</tr>
+			</c:forEach>
 		</table>
 	</fieldset>
 	<%@ include file="/jsp/newproduct.jsp"%>
