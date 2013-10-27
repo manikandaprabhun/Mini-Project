@@ -46,7 +46,8 @@ public class AppDao {
 	}
 
 	public static void delete(Object persistentInstance) {
-		log.debug("deleting "+ persistentInstance.getClass().getSimpleName() +" instance");
+		log.debug("deleting " + persistentInstance.getClass().getSimpleName()
+				+ " instance");
 		try {
 			HbernateUtil.getAnnotatedSessionFactory().getCurrentSession()
 					.delete(persistentInstance);
@@ -80,8 +81,8 @@ public class AppDao {
 		return result;
 	}
 
-	public Object findById(int id, String className) {
-		log.debug("getting Task instance with id: " + id);
+	public static Object findById(int id, String className) {
+		log.debug("getting " + className + " instance with id: " + id);
 		Object result = null;
 		try {
 			result = HbernateUtil.getAnnotatedSessionFactory()

@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Products</title>
 </head>
 <body>
 	<fieldset style="width: 250px">
@@ -22,8 +22,9 @@
 				<tr>
 					<td><a href="cont.do?act=delete&&id=${project.id}"><img
 							src="/serv-jsp-hibernate/images/delete.ico"
-							alt="Delete the Product" height="13px" width="13px""></a></td>
-					<td><label>${project.name}</label></td>
+							alt="Delete the Product" height="13px" width="13px"></a></td>
+					<td><a href="cont.do?act=updateform&&id=${project.id}"> <label>${project.name}</label>
+					</a></td>
 					<td><select name="catgry">
 							<c:forEach var="cat" items="${requestScope.cats}">
 								<c:choose>

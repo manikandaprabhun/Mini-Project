@@ -30,6 +30,12 @@ public class Projects implements Serializable {
 		this.cats = cats;
 	}
 
+	public Projects(Integer id, String name, Cats cats) {
+		this.id = id;
+		this.name = name;
+		this.cats = cats;
+	}
+
 	@GeneratedValue(strategy = IDENTITY)
 	@Id
 	@Column(name = "id", nullable = false)

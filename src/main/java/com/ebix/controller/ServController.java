@@ -25,16 +25,22 @@ public class ServController extends HttpServlet {
 	public ServController() {
 		super();
 	}
-	
+
 	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
 		String act = request.getParameter("act");
-		if(ServConstans.DELETE.equals(act)){
+		if (ServConstans.DELETE.equals(act)) {
 			String id = request.getParameter("id");
 			Projects projects = new Projects();
 			projects.setId(Integer.parseInt(id));
 			AppDao.delete(projects);
+			loadAndRedirect(request, response);
+		} else if (ServConstans.UPDATEFORM.equals(act)) {
+			String id = request.getParameter("id");
+			Projects upProd = (Projects) AppDao.findById(Integer.parseInt(id),
+					Projects.class.getName());
+			request.setAttribute("upProd", upProd);
 			loadAndRedirect(request, response);
 		}
 	}
@@ -55,9 +61,18 @@ public class ServController extends HttpServlet {
 					Integer.parseInt(category), null, null));
 			AppDao.attachDirty(projects);
 			loadAndRedirect(request, response);
+		} else if (ServConstans.UPDATE.equals("update")) {
+			String id = request.getParameter("id");
+			String name = request.getParameter("name");
+			String category = request.getParameter("catgry");
+			Projects projects = new Projects(Integer.parseInt(id), name,
+					new Cats(Integer.parseInt(category), null, null));
+			AppDao.attachDirty(projects);
+			loadAndRedirect(request, response);
+
 		}
 	}
-	
+
 	@SuppressWarnings("unchecked")
 	private void loadAndRedirect(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
