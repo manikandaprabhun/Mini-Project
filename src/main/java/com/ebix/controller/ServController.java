@@ -61,7 +61,7 @@ public class ServController extends HttpServlet {
 					Integer.parseInt(category), null, null));
 			AppDao.attachDirty(projects);
 			loadAndRedirect(request, response);
-		} else if (ServConstans.UPDATE.equals("update")) {
+		} else if (ServConstans.UPDATE.equals(act)) {
 			String id = request.getParameter("id");
 			String name = request.getParameter("name");
 			String category = request.getParameter("catgry");
