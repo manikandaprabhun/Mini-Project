@@ -41,7 +41,7 @@ public class HibernateSessionRequestFilter implements Filter {
 			FilterChain chain) throws IOException, ServletException {
 		try {
 			if (!sf.getCurrentSession().getTransaction().isActive())
-				HbernateUtil.getSession().getTransaction().begin();
+				HbernateUtil.getSession().beginTransaction();
 			// Call the next filter (continue request processing)
 			chain.doFilter(request, response);
 			// Commit and cleanup
