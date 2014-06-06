@@ -36,7 +36,7 @@ public class Authenticate implements Filter {
 					|| null != req.getParameter("psw")) {
 				User u = new User(req.getParameter("usr"),
 						req.getParameter("psw"));
-				Session session = HbernateUtil.getAnnotatedSessionFactory().getCurrentSession();
+				Session session = HbernateUtil.getSession();
 				try {
 					@SuppressWarnings("unchecked")
 					java.util.List<User> usr = session.createQuery(

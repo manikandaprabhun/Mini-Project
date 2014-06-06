@@ -17,8 +17,7 @@ public class AppDao {
 	public void persist(Object transientInstance) {
 		log.debug("persisting Task instance");
 		try {
-			HbernateUtil.getAnnotatedSessionFactory().getCurrentSession()
-					.persist(transientInstance);
+			HbernateUtil.getSession().persist(transientInstance);
 		} catch (HibernateException e) {
 			e.printStackTrace();
 		}
@@ -28,8 +27,7 @@ public class AppDao {
 		log.debug("attaching dirty " + instance.getClass().getSimpleName()
 				+ " instance");
 		try {
-			HbernateUtil.getAnnotatedSessionFactory().getCurrentSession()
-					.saveOrUpdate(instance);
+			HbernateUtil.getSession().saveOrUpdate(instance);
 		} catch (HibernateException e) {
 			e.printStackTrace();
 		}
@@ -38,8 +36,7 @@ public class AppDao {
 	public void attachClean(Object instance) {
 		log.debug("attaching clean Task instance");
 		try {
-			HbernateUtil.getAnnotatedSessionFactory().getCurrentSession()
-					.lock(instance, LockMode.NONE);
+			HbernateUtil.getSession().lock(instance, LockMode.NONE);
 		} catch (HibernateException e) {
 			e.printStackTrace();
 		}
@@ -49,8 +46,7 @@ public class AppDao {
 		log.debug("deleting " + persistentInstance.getClass().getSimpleName()
 				+ " instance");
 		try {
-			HbernateUtil.getAnnotatedSessionFactory().getCurrentSession()
-					.delete(persistentInstance);
+			HbernateUtil.getSession().delete(persistentInstance);
 		} catch (HibernateException e) {
 			e.printStackTrace();
 		}
@@ -60,8 +56,7 @@ public class AppDao {
 		log.debug("fetching all instance");
 		List<?> l = null;
 		try {
-			l = HbernateUtil.getAnnotatedSessionFactory().getCurrentSession()
-					.createQuery("from " + name).list();
+			l = HbernateUtil.getSession().createQuery("from " + name).list();
 		} catch (HibernateException e) {
 			e.printStackTrace();
 		}
@@ -72,8 +67,7 @@ public class AppDao {
 		log.debug("merging Task instance");
 		Object result = null;
 		try {
-			result = HbernateUtil.getAnnotatedSessionFactory()
-					.getCurrentSession().merge(detachedInstance);
+			result = HbernateUtil.getSession().merge(detachedInstance);
 			log.debug("merge successful");
 		} catch (HibernateException e) {
 			e.printStackTrace();

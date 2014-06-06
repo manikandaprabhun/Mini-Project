@@ -59,7 +59,7 @@ public class HbernateUtil {
 		// open a new Session, if this thread has none yet
 		try {
 			if (s == null) {
-				s = annotatedSessionFactory.getCurrentSession();
+				s = annotatedSessionFactory.openSession();
 				threadSession.set(s);
 			}
 		} catch (HibernateException ex) {
