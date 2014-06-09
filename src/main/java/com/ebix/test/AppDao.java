@@ -79,8 +79,7 @@ public class AppDao {
 		log.debug("getting " + className + " instance with id: " + id);
 		Object result = null;
 		try {
-			result = HbernateUtil.getAnnotatedSessionFactory()
-					.getCurrentSession().get(className, id);
+			result = HbernateUtil.getSession().get(className, id);
 			if (result == null) {
 				log.debug("get successful, no instance found");
 			} else {
@@ -96,8 +95,8 @@ public class AppDao {
 	public List findByExample(Object instance) {
 		log.debug("finding Task instance by example");
 		try {
-			List results = HbernateUtil.getAnnotatedSessionFactory()
-					.getCurrentSession().createCriteria("com.ebix.domain.Task")
+			List results = HbernateUtil.getSession()
+					.createCriteria("com.ebix.domain.Task")
 					.add(Example.create(instance)).list();
 			log.debug("find by example successful, result size: "
 					+ results.size());
