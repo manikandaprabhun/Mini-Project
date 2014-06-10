@@ -45,8 +45,8 @@ public class HibernateSessionRequestFilter implements Filter {
 			// Call the next filter (continue request processing)
 			chain.doFilter(request, response);
 			// Commit and cleanup
-			if (sf.getCurrentSession().getTransaction().isActive())
-				sf.getCurrentSession().getTransaction().commit();
+			if (HbernateUtil.getSession().getTransaction().isActive())
+				HbernateUtil.getSession().getTransaction().commit();
 			HbernateUtil.closeSession();
 		} catch (StaleObjectStateException staleEx) {
 			throw staleEx;
