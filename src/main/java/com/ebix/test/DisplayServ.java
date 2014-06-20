@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.Set;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebInitParam;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -21,6 +23,9 @@ import com.ebix.util.HbernateUtil;
 /**
  * Servlet implementation class DisplayServ
  */
+@WebServlet(name = "DisplayServ", urlPatterns = "/DisplayServ", initParams = {
+		@WebInitParam(name = "usr1", value = "Mani"),
+		@WebInitParam(name = "usr2", value = "Eapp") })
 public class DisplayServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static SessionFactory factory;

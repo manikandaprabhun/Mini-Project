@@ -18,7 +18,7 @@ public class HbernateUtil {
 	private static final ThreadLocal<Session> threadSession = new ThreadLocal<Session>();
 
 	private static SessionFactory buildSessionFactory() {
-		try {
+		/*try {
 			Configuration configuration = new Configuration();
 			configuration.configure();
 			serviceRegistry = new ServiceRegistryBuilder().applySettings(
@@ -27,8 +27,9 @@ public class HbernateUtil {
 		} catch (Throwable ex) {
 			System.err.println("Initial SessionFactory creation failed." + ex);
 			throw new ExceptionInInitializerError(ex);
-		}
-	}
+		}*/
+		return buildAnnotatedSessionFactory();
+	}   
 
 	private static SessionFactory buildAnnotatedSessionFactory() {
 		try {

@@ -7,6 +7,7 @@ import org.apache.commons.logging.LogFactory;
 import org.hibernate.HibernateException;
 import org.hibernate.LockMode;
 import org.hibernate.criterion.Example;
+import org.hibernate.criterion.Restrictions;
 
 import com.ebix.util.HbernateUtil;
 
@@ -56,9 +57,10 @@ public class AppDao {
 		log.debug("fetching all instance");
 		List<?> l = null;
 		try {
-			l = HbernateUtil.getSession().createQuery("from " + name).list();
+			l = HbernateUtil.getSession().createCriteria(name).list();
+			// l = HbernateUtil.getSession().createQuery("from " + name).list();
 		} catch (HibernateException e) {
-			e.printStackTrace();
+ 			e.printStackTrace();
 		}
 		return l;
 	}

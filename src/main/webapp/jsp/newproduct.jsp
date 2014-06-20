@@ -1,5 +1,6 @@
 <%@page import="com.ebix.domain.Cats,java.util.List"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <form action="cont.do" method="post">
 	<fieldset title="Login" style="width: 250px">
 		<c:choose>

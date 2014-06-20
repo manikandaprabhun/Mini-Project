@@ -8,6 +8,7 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -18,10 +19,12 @@ import org.hibernate.Session;
 import com.ebix.domain.User;
 import com.ebix.util.HbernateUtil;
 
+@WebFilter(filterName = "auth", urlPatterns = { "/*" })
 public class Authenticate implements Filter {
 	private static final String REDIRECT = "login.do";
 
-	public void destroy() {		System.err.println("initialized");
+	public void destroy() {
+		System.err.println("initialized");
 	}
 
 	public void doFilter(ServletRequest request, ServletResponse response,
@@ -45,9 +48,10 @@ public class Authenticate implements Filter {
 									+ "' AND u.password ='"
 									+ req.getParameter("psw") + "'").list();
 					if (null == usr || usr.isEmpty()) {
-						request.getRequestDispatcher(REDIRECT).forward(request, response);
+						request.getRequestDispatcher(REDIRECT).forward(request,
+								response);
 						return;
-					}else{
+					} else {
 						httpSession.setAttribute("user", u);
 						chain.doFilter(request, response);
 					}
@@ -55,10 +59,11 @@ public class Authenticate implements Filter {
 					e.printStackTrace();
 				}
 			} else {
-				request.getRequestDispatcher(REDIRECT).forward(request, response);
+				request.getRequestDispatcher(REDIRECT).forward(request,
+						response);
 				return;
 			}
-		}else{
+		} else {
 			chain.doFilter(request, response);
 		}
 	}

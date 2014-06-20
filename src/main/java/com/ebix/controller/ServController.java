@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.List;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,6 +17,8 @@ import com.ebix.util.ServConstans;
 /**
  * Servlet implementation class ServController
  */
+
+@WebServlet(name = "secont", urlPatterns = "/cont.do")
 public class ServController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -77,8 +80,8 @@ public class ServController extends HttpServlet {
 	private void loadAndRedirect(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		List<Projects> projects = (List<Projects>) AppDao.all(Projects.class
-				.getSimpleName());
-		List<Cats> cats = (List<Cats>) AppDao.all(Cats.class.getSimpleName());
+				.getName());
+		List<Cats> cats = (List<Cats>) AppDao.all(Cats.class.getName());
 		request.setAttribute("projects", projects);
 		request.setAttribute("cats", cats);
 		request.getRequestDispatcher("project.do").forward(request, response);
